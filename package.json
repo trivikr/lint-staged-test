@@ -4,7 +4,8 @@
   "description": "Testing lint-staged with git add commands",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prettify": "prettier --write *.js"
   },
   "repository": {
     "type": "git",
@@ -20,5 +21,8 @@
   "bugs": {
     "url": "https://github.com/trivikr/lint-staged-test/issues"
   },
-  "homepage": "https://github.com/trivikr/lint-staged-test#readme"
+  "homepage": "https://github.com/trivikr/lint-staged-test#readme",
+  "devDependencies": {
+    "prettier": "^1.14.2"
+  }
 }
